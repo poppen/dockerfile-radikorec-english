@@ -1,4 +1,13 @@
 45 6 * * 1-5 root /usr/local/bin/radikorec --duration 15 --prefix KAIWA --channel NHK2 --directory /radikorec
+25 12 * * 1-5 root /usr/local/bin/radikorec --duration 15 --prefix KAIWA --channel NHK2 --directory /radikorec
+45 15 * * 1-5 root /usr/local/bin/radikorec --duration 15 --prefix KAIWA --channel NHK2 --directory /radikorec
+45 21 * * 1-5 root /usr/local/bin/radikorec --duration 15 --prefix KAIWA --channel NHK2 --directory /radikorec
+
 15 9 * * 4-5 root /usr/local/bin/radikorec --duration 15 --prefix BUSINESS2 --channel NHK2 --directory /radikorec
+40 12 * * 4-5 root /usr/local/bin/radikorec --duration 15 --prefix BUSINESS2 --channel NHK2 --directory /radikorec
+20 23 * * 4-5 root /usr/local/bin/radikorec --duration 15 --prefix BUSINESS2 --channel NHK2 --directory /radikorec
+
 30 8 * * 1-5 root /usr/local/bin/radikorec --duration 10 --prefix TIMETRIAL --channel NHK2 --directory /radikorec
+15 12 * * 1-5 root /usr/local/bin/radikorec --duration 10 --prefix TIMETRIAL --channel NHK2 --directory /radikorec
+0 23 * * 1-5 root /usr/local/bin/radikorec --duration 10 --prefix TIMETRIAL --channel NHK2 --directory /radikorec
 
