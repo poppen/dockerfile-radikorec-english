@@ -1,0 +1,5 @@
+english:
+  build: .
+  restart: always
+  volumes:
+    - /var/podcast:/radikorec
